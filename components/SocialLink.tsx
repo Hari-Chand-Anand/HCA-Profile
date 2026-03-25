@@ -37,7 +37,7 @@ function getStyles(name: string) {
     case "website":
       return {
         className:
-          "border border-slate-200 bg-white/80 text-slate-700 hover:border-slate-300 hover:bg-white hover:text-slate-900",
+          "border border-slate-200 bg-white/88 text-slate-700 hover:border-slate-300 hover:bg-white hover:text-slate-900",
       };
     case "instagram":
       return {
@@ -55,7 +55,7 @@ function getStyles(name: string) {
     default:
       return {
         className:
-          "border border-slate-200 bg-white/80 text-slate-700 hover:border-slate-300 hover:bg-white hover:text-slate-900",
+          "border border-slate-200 bg-white/88 text-slate-700 hover:border-slate-300 hover:bg-white hover:text-slate-900",
       };
   }
 }
@@ -64,7 +64,7 @@ export function SocialLink({ platform, brandId }: SocialLinkProps) {
   const styles = getStyles(platform.name);
   const isPlaceholder = platform.url === "#";
   const baseClassName = [
-    "group inline-flex items-center gap-2 rounded-full px-4 py-2.5 text-sm font-medium transition duration-300",
+    "group inline-flex min-h-[56px] w-full items-center justify-center gap-2 rounded-full px-4 py-3 text-sm font-medium transition duration-300 sm:text-[15px]",
     "focus-visible:ring-2 focus-visible:ring-accent/40 focus-visible:ring-offset-2 focus-visible:ring-offset-transparent",
     isPlaceholder ? "opacity-70" : "hover:-translate-y-0.5 hover:scale-[1.02]",
     styles.className,
