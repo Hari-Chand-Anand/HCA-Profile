@@ -20,7 +20,7 @@ export default function HomePage() {
         </div>
 
         <footer className="mt-14 pb-2 text-center text-sm text-muted sm:mt-20">
-          © 2024 HCA Group · All rights reserved
+          © 2026 HCA Group · All rights reserved
         </footer>
       </section>
     </main>
