@@ -46,9 +46,6 @@ export function BrandCard({ brand, index }: BrandCardProps) {
 
           <div className="pt-1">
             <h2 className="text-2xl font-semibold tracking-tight text-ink">{brand.name}</h2>
-            <p className="mt-2 max-w-2xl text-sm leading-6 text-muted sm:text-base">
-              {brand.tagline}
-            </p>
           </div>
         </div>
       </div>
