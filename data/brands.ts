@@ -31,7 +31,7 @@ export const brands: Brand[] = [
   },
   {
     id: "duke",
-    name: "Duke",
+    name: "Duke Sewing Machine",
     logoUrl: "https://dukesewing.com/wp-content/uploads/2024/01/duke-106x31.png",
     platforms: [
       { name: "Website", url: "https://dukesewing.com/", icon: "globe" },
