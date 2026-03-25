@@ -12,12 +12,6 @@ export default function HomePage() {
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-muted sm:text-sm">
             Connect · Explore
           </p>
-          <h1 className="mt-5 text-4xl font-semibold tracking-tight text-ink sm:text-5xl lg:text-6xl">
-            Our Brands
-          </h1>
-          <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-muted sm:text-lg">
-            Explore our family of companies and connect across platforms.
-          </p>
         </header>
 
         <div className="mx-auto mt-12 grid w-full max-w-4xl gap-6 sm:mt-16">

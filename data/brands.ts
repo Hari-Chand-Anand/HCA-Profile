@@ -9,7 +9,6 @@ export type Platform = {
 export type Brand = {
   id: string;
   name: string;
-  tagline: string;
   logoUrl: string;
   platforms: Platform[];
 };
@@ -18,7 +17,6 @@ export const brands: Brand[] = [
   {
     id: "hca",
     name: "Hari Chand Anand & Co.",
-    tagline: "Trusted excellence, generations of quality.",
     logoUrl: "https://www.grouphca.com/cdn/shop/files/logo_1_280x.png?v=1722238275",
     platforms: [
       { name: "Website", url: "https://www.grouphca.com/", icon: "globe" },
@@ -34,7 +32,6 @@ export const brands: Brand[] = [
   {
     id: "duke",
     name: "Duke",
-    tagline: "Precision machinery for the modern garment industry.",
     logoUrl: "https://dukesewing.com/wp-content/uploads/2024/01/duke-106x31.png",
     platforms: [
       { name: "Website", url: "https://dukesewing.com/", icon: "globe" },
@@ -54,7 +51,6 @@ export const brands: Brand[] = [
   {
     id: "dukejia",
     name: "Dukejia",
-    tagline: "Innovation at the intersection of craft and technology.",
     logoUrl: "https://dukejia.com/images/dukejia.png",
     platforms: [
       { name: "Website", url: "https://dukejia.com/", icon: "globe" },
